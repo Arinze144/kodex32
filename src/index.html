@@ -1,13 +1,43 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Transformation Africa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline bg-amber-500">
-    Hello world!
-  </h1>
+<body class="bg-black">
+  <!-- Hero Section -->
+  <section class="relative h-screen bg-cover bg-center" style="background-image: url('your-image-path.png')">
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+        Igniting Digital <span class="text-orange-500">Transformation</span> & Solutions<br/>
+        Across Africa.
+      </h1>
+      <p class="mt-6 text-lg md:text-xl max-w-2xl">
+        We partner with businesses and organizations to develop custom digital solutions that streamline processes, enhance efficiency, and improve customer experiences.
+      </p>
+      <a href="#contact" class="mt-8 inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded transition duration-300">
+        Get In Touch
+      </a>
+    </div>
+
+    <!-- Carousel Buttons (just for design) -->
+    <div class="absolute left-4 top-1/2 transform -translate-y-1/2">
+      <button class="bg-black bg-opacity-40 text-white p-2 rounded-full hover:bg-opacity-70">
+        &#10094;
+      </button>
+    </div>
+    <div class="absolute right-4 top-1/2 transform -translate-y-1/2">
+      <button class="bg-black bg-opacity-40 text-white p-2 rounded-full hover:bg-opacity-70">
+        &#10095;
+      </button>
+    </div>
+  </section>
 </body>
 </html>
